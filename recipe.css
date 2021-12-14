@@ -1,0 +1,156 @@
+body {
+    background-color:  #efb261c0;
+    font-family: Arial;
+    
+}
+p.Cate{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: inline-block;
+    margin-bottom: -0px;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    }
+
+div.content {
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+    background-color:white ;
+    margin: 0px 10% 80px 10%;
+    padding: 30px;
+    /*min-width px the size of the picture so tha the border don't get out of 
+    the picture when we try to schrink the web. */
+}
+h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+p.description{ 
+    text-align: center;
+    max-width: 400px;
+    display: inline;
+    font-size: 16px;
+}
+.description{
+    text-align: center;
+    width: 100%;
+    /*background-color: yellow; its used like debug to check*/
+    /*comment in css*/
+}
+div.Cate{
+    text-align: center;
+    margin-bottom: -15px;
+}
+div.longline{
+    height: 1.6px;
+    width: 250px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.info{
+    position:relative;
+}
+table.info{
+    position:absolute; 
+    bottom:0;
+    width: 100%;
+    height: 80px; 
+    color: white; 
+    background-color:#efb261c0 ;
+}
+/* all the td of the table*/
+table.info td{ /*change the text "difficulty,preparation,cocoking.total time"*/
+    text-align: center;
+    vertical-align: top;/*rerange or change the postion of the text vertcaly "top-bottom"*/
+    font-size: 20px;     /*the size of the text*/
+}
+table.info th{
+    vertical-align: bottom;
+    padding-bottom: 10px;/*filler between the texts*/
+    font-size: 14px;
+
+}
+img.info{
+    display:block;
+    height: 400px;
+    object-fit: cover;
+    min-height: 200px; /* those two are for when we enter the webside*/
+    background-color: orange; /*and the image isn't loading so the text doesn't overlap*/
+}
+/* comment in html-->
+<!--margin is the space between the sides of the background >top,right,bottom,left-->
+<!--margin : 60px 100px 200 px 20px; -->
+<!--padding is the space between the sieds of the background in the background -->
+<!--padding: 30px;  all sides same-->
+*/
+div.col1{
+    /*background-color: green; for debug */
+    display: inline-block;
+    margin-right: 10%;
+}
+div.col2{
+    float: right;
+    /*makes the text go right side*/
+}
+/*
+div.1,div.2{
+width: 50%
+for space saving and working clearly
+
+}
+*/
+div.col{
+width: 45%;
+margin-top: 20px;
+}
+div.col h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 21px;
+    border-bottom: 6px solid #efb261c0;
+    padding-bottom: 5px;
+}
+div.ingredi p{
+    
+    text-align: center;
+    font-size: 19px;
+    border: 2px solid #efb261;
+    padding: 10px 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  
+    /* display: inline-block; it makes the blocks stick and its like pizzle space saving*/
+}
+table.instructions p.nmbr {
+    background-color:#efb261 ;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width:25px ;
+    height:25px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+table.instructions td.instructo_step {
+    padding-left:10px ;
+    padding-bottom: 10px;
+    font-size: 19px;
+}
+table.instructions td {
+    vertical-align: top;
+}
+table.instructions tr {
+    height: 50px;
+}
+
+*{
+    overflow: auto;
+}
+/*when * selects and works for everything*/
+
+
